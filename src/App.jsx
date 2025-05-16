@@ -1,8 +1,8 @@
 import './App.css'
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Nav from './components/Nav'
 import Waste from './components/Waste'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Waste />
       <Footer />
       <About />
+      <Contact />
     </>
   )
 }

@@ -24,7 +24,6 @@ const Nav = () => {
             Leeds Junk
           </a>
           <ul className={`fixed lg:static flex justify-center items-center flex-col lg:flex-row w-full lg:w-auto bg-[#00243C] lg:bg-transparent top-0 bottom-0 right-0 transform ${isNavOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'} transition-transform duration-300 z-20 p-8 lg:p-0 gap-6 lg:gap-6`}>
-
             <li className="flex flex-col lg:flex-row gap-6 items-center">
               <a className="no-underline hover:underline " href="/">
                 <CommonPara ParaText="Home" ParaClass=" !font-semibold" />
