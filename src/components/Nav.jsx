@@ -27,13 +27,13 @@ const Nav = () => {
 
             <li className="flex flex-col lg:flex-row gap-6 items-center">
               <a className="no-underline hover:underline " href="/">
+                <CommonPara ParaText="Home" ParaClass=" !font-semibold" />
+              </a>
+              <a className="no-underline hover:underline " href="/">
                 <CommonPara ParaText="About" ParaClass=" !font-semibold" />
               </a>
               <a className="no-underline hover:underline " href="/">
-                <CommonPara ParaText="Services" ParaClass=" !font-semibold" />
-              </a>
-              <a className="no-underline hover:underline " href="/">
-                <CommonPara ParaText="FAQs" ParaClass=" !font-semibold" />
+                <CommonPara ParaText="Product" ParaClass=" !font-semibold" />
               </a>
               <a className="no-underline hover:underline " href="/">
                 <CommonPara ParaText="Contact Us" ParaClass=" !font-semibold" />
