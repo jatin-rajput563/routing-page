@@ -21,7 +21,7 @@ const Header = () => {
                             <h1 className='font-roboto font-[800] text-[64px] max-w-[701px] leading-[100%] max-lg:text-center max-lg:mx-auto'>WASTE REMOVAL YOUR WAY</h1>
                             <CommonPara ParaClass="max-w-[400px] pt-[16px] pb-[32px] max-lg:text-center max-lg:mx-auto" ParaText="We’re here to make waste removal hassle-free with a service that’s flexible
                     , reliable, and tailored to your needs. Whether you need a free site visit." />
-                            <CommonButton />
+                            <CommonButton BtnClass="max-lg:mx-auto flex " />
                         </div>
                         <div className="min-lg:w-6/12 ">
                             <div className=' '>
