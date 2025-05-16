@@ -18,7 +18,7 @@ const Contact = () => {
                             <CommonInput placeholder="Email" InputClass="" />
                             <CommonInput placeholder="Phone no." InputClass="" />
                         </div>
-                        <textarea className='w-full bg-white mt-6 rounded-[20px] min-h-[100px] outline-0 p-[13px]'placeholder='Message' >Message</textarea>
+                        <textarea className='w-full bg-white mt-6 rounded-[20px] min-h-[100px] outline-0 p-[13px]'placeholder='Message' ></textarea>
                     </div>
                 </div>
             </div>

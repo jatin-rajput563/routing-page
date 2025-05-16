@@ -1,12 +1,14 @@
 import React from 'react'
 import About from '../components/about/About'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import AboutHeader from '../components/AboutHeader'
+// import Header from '../components/Header'
 
 const AboutPage = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
+            <AboutHeader />
             <About />
             <Footer />
         </div>
