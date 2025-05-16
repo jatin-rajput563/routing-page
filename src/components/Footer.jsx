@@ -6,7 +6,7 @@ import { FACEBOOK, LINKDIN, TWITER, YOUTUBE } from '../utils/icon'
 const Footer = () => {
     return (
         <>
-            <div className="min-h-screen bg-[url(../src//assets/images/png/footer-bg.png)] bg-cover bg-no-repeat bg-center pt-[67px]">
+            <div className="bg-[url(../src//assets/images/png/footer-bg.png)] bg-cover bg-no-repeat bg-center pt-[67px]">
                 <div className="max-w-[1140px] mx-auto ">
                     <div className="flex flex-row flex-wrap">
                         <div className="w-6/12">
@@ -44,6 +44,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className="w-full h-0.5 bg-[#929292] mt-[73px]"></div>
+                <CommonPara ParaClass="text-center text-[12px] font-light !text-white py-[16px]" ParaText="Copyright © 2023 Leeds Junk. All rights reserved." />
+
             </div >
         </>
     )
