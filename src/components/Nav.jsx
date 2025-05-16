@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CommonButton from './common/CommonButton';
 import CommonPara from './common/CommonPara';
+import { NavLink } from 'react-router-dom';
 const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -25,18 +26,18 @@ const Nav = () => {
           </a>
           <ul className={`fixed lg:static flex justify-center items-center flex-col lg:flex-row w-full lg:w-auto bg-[#00243C] lg:bg-transparent top-0 bottom-0 right-0 transform ${isNavOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'} transition-transform duration-300 z-20 p-8 lg:p-0 gap-6 lg:gap-6`}>
             <li className="flex flex-col lg:flex-row gap-6 items-center">
-              <a className="no-underline hover:underline " href="/">
+              <NavLink className="no-underline hover:underline " to="/">
                 <CommonPara ParaText="Home" ParaClass=" !font-semibold" />
-              </a>
-              <a className="no-underline hover:underline " href="/">
+              </NavLink>
+              <NavLink className="no-underline hover:underline " to="/about">
                 <CommonPara ParaText="About" ParaClass=" !font-semibold" />
-              </a>
-              <a className="no-underline hover:underline " href="/">
+              </NavLink>
+              <NavLink className="no-underline hover:underline " to="/product">
                 <CommonPara ParaText="Product" ParaClass=" !font-semibold" />
-              </a>
-              <a className="no-underline hover:underline " href="/">
+              </NavLink>
+              <NavLink className="no-underline hover:underline " to="/contact">
                 <CommonPara ParaText="Contact Us" ParaClass=" !font-semibold" />
-              </a>
+              </NavLink>
             </li>
             <li className="mt-4 lg:mt-0 min-lg:hidden">
               <CommonButton />
