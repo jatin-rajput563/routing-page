@@ -4,7 +4,7 @@ const CommonButton = () => {
     return (
         <>
             <button></button>
-            </>
+        </>
     )
 }
 
